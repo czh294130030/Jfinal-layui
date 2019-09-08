@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<orderOutboundRequest version="0.1" login="Eyar6pXG" password="WaZDzfyZvR6pVLpN">
+    <queries>
+        <query>
+            <attribute>orderStatus</attribute>
+            <eq>delivered</eq>
+        </query>
+        <query>
+            <attribute>pickupSla</attribute>
+            <ge>2019-1-1</ge>
+            <le>2019-7-1</le>
+        </query>
+    </queries>
+    <includeOrderInfo>true</includeOrderInfo>
+    <includeOrderPosition>true</includeOrderPosition>
+    <includeLocationHistory>true</includeLocationHistory>
+    <orderBy>
+        <desc>pickupSla</desc>
+    </orderBy>
+    <start>1</start>
+    <count>10</count>
+</orderOutboundRequest>

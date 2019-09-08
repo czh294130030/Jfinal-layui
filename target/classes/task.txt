@@ -1,0 +1,5 @@
+cron4j=FetchOrderJob
+FetchOrderJob.cron=* * * * *
+FetchOrderJob.class=com.qinhailin.task.FetchOrderJob
+FetchOrderJob.daemon=true
+FetchOrderJob.enable=true
